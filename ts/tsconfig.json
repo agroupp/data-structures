@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+
+        "noImplicitAny": true,
+        "strictFunctionTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": "..",
+        "paths": {
+            "rxjs/*": ["./node_modules/rxjs/*"]
+        },
+        "outDir": "../dist/ts",
+        "target": "ES2015"
+    }
+}
